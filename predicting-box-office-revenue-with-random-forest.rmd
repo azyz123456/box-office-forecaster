@@ -1,4 +1,3 @@
-# %% [code]
 ---
 title: "Predicting box office revenue with Random Forest"
 output: 
@@ -16,15 +15,12 @@ knitr::opts_chunk$set(
 ```
 
 # Introduction
-Welcome to this kernel where we will be trying to predict **how much revenue a movie makes at the box office**. During this process we will be going through:  
-
 1. Exploratory data analysis,  
 2. Feature engineering,  
 3. Treating missing values, and  
 4. Machine learning using random forest. 
 
 
-First lets load all the packages that we will need. 
 ```{r}
 library(tidyverse) # Multiple packages
 library(plotly) # Interactive visualizations
